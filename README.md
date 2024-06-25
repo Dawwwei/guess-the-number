@@ -1,4 +1,4 @@
-#Link
+# Link
 http://daweilin.me/guess-the-number/
 
 # Preview
