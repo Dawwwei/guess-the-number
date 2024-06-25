@@ -5,9 +5,13 @@
     font-family: "Segoe UI", "Arial";
 }
 
+body {
+    background-image: url("../img/stars.jpg");
+}
+
 #container {
     padding: 15px;
-    margin: 25px auto;
+    margin: 40vh auto;
     height: 175px;
     width: 750px;
     text-align: center;
@@ -16,7 +20,7 @@
     color: white;
     border: 2px solid black;
     border-radius: 5px;
-    outline: 5px solid lightblue
+    outline: 5px solid lightblue;
 }
 
 h2 {
@@ -38,4 +42,16 @@ button {
     border: 1.5px solid black;
     border-radius: 5px;
     font-size: 15px;
+}
+
+@media (max-width: 970px) {
+    #container {
+        width: 80%;
+    }
+}
+
+@media (max-width: 400px) {
+    #container {
+        height: auto
+    }
 }
